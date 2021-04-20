@@ -4,8 +4,6 @@ import (
 	"database/sql"
 )
 
-var Language SQLiteLanguage
-
-type SQLiteLanguage struct {
+type SQLite3 struct {
 	Database *sql.DB
 }
