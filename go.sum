@@ -44,6 +44,10 @@ github.com/google/gofuzz v1.0.0/go.mod h1:dBl0BpW6vV/+mYPU4Po3pmUjxk6FQPldtuIdl/
 github.com/google/uuid v1.2.0/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=
 github.com/helmutkemper/kemper.com.br v0.0.0-20210419211826-7f142e94635b h1:QYFERGGeC3dfVTylYOe8zIgo6jnv2Sn7tYsqnngV5w8=
 github.com/helmutkemper/kemper.com.br v0.0.0-20210419211826-7f142e94635b/go.mod h1:FkXUF6rufrIT0Q0kwtQT0knaWPon62K8Ir6R5mqol+M=
+github.com/helmutkemper/kemper.com.br.module.dataformat v1.0.2 h1:k4IW2qkn7xLlkdS97VPlzDJ82cMki8a/DJJseES2ZxI=
+github.com/helmutkemper/kemper.com.br.module.dataformat v1.0.2/go.mod h1:zceVnb6kBNu1AVJGLWpTTUX2Zkz71/GxNrxd6fV1kWk=
+github.com/helmutkemper/util v0.0.0-20210420213725-d4fad0e09c93 h1:PRAF11ghIE1y0e8Pff1ip8DpZkfPUrbJJEfGPrIWV4s=
+github.com/helmutkemper/util v0.0.0-20210420213725-d4fad0e09c93/go.mod h1:UkJvkrH5lOUrsdbx8Bl8Q1dTzIbEbZKu6sN0TS5vul8=
 github.com/inconshreveable/mousetrap v1.0.0/go.mod h1:PxqpIevigyE2G7u3NXJIT2ANytuPF1OarO4DADm73n8=
 github.com/jmespath/go-jmespath v0.4.0/go.mod h1:T8mJZnbsbmF+m6zOOFylbeCJqk5+pHWvzYPziyZiYoo=
 github.com/jmespath/go-jmespath/internal/testify v1.5.1/go.mod h1:L3OGu8Wl2/fWfCI6z80xFu9LTZmf1ZRjMHUOPmWr69U=

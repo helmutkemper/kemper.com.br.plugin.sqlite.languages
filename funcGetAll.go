@@ -3,15 +3,15 @@ package main
 import (
 	"database/sql"
 	"errors"
+	"github.com/helmutkemper/kemper.com.br.module.dataformat"
 	"github.com/helmutkemper/kemper.com.br/constants"
-	"github.com/helmutkemper/kemper.com.br/dataAccess/dataFormat"
 	"log"
 )
 
-func (e *SQLiteLanguage) GetAll() (languagues []dataFormat.Languages, length int, err error) {
+func (e *SQLiteLanguage) GetAll() (languagues []dataformat.Languages, length int, err error) {
 	var rows *sql.Rows
 
-	languagues = make([]dataFormat.Languages, 0)
+	languagues = make([]dataformat.Languages, 0)
 
 	rows, err = e.Database.Query(
 		`
@@ -40,7 +40,7 @@ func (e *SQLiteLanguage) GetAll() (languagues []dataFormat.Languages, length int
 
 		languagues = append(
 			languagues,
-			dataFormat.Languages{
+			dataformat.Languages{
 				Id:   id,
 				Name: name,
 			},
