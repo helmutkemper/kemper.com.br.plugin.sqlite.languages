@@ -1,4 +1,4 @@
-module github.com/helmutkemper/kemper.com.br.plugin.sqllite.languages/v0.0.1
+module github.com/helmutkemper/kemper.com.br.plugin.sqlite.languages/v0.0.1
 
 go 1.16
 
