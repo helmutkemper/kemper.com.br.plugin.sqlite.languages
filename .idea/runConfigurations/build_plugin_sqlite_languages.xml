@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="build plugin sqlite languages" type="GoApplicationRunConfiguration" factoryName="Go Application">
+    <module name="kemper.com.br.plugin.sqllite.languages" />
+    <working_directory value="$PROJECT_DIR$" />
+    <go_parameters value="-buildmode=plugin -o $PROJECT_DIR$/languages.sqlite.so" />
+    <kind value="PACKAGE" />
+    <package value="github.com/helmutkemper/kemper.com.br.plugin.sqlite.languages/v0.0.1" />
+    <directory value="$PROJECT_DIR$" />
+    <filePath value="$PROJECT_DIR$" />
+    <method v="2" />
+  </configuration>
+</component>
