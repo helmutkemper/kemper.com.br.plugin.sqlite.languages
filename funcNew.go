@@ -2,20 +2,20 @@ package main
 
 import (
 	"github.com/helmutkemper/kemper.com.br/constants"
-	"log"
+	"github.com/helmutkemper/util"
 )
 
-func (e *SQLiteLanguage) New() (referenceInicialized *SQLiteLanguage, err error) {
+func (e *SQLiteLanguage) New() (referenceInicialized interface{}, err error) {
 	referenceInicialized = &SQLiteLanguage{}
-	err = referenceInicialized.Connect(constants.KSQLiteConnectionString)
+	err = referenceInicialized.(*SQLiteLanguage).Connect(constants.KSQLiteConnectionString)
 	if err != nil {
-		log.Printf("SQLiteLanguage.New().Connect().error: %v", err.Error())
+		util.TraceToLog()
 		return
 	}
 
-	err = referenceInicialized.Install()
+	err = referenceInicialized.(*SQLiteLanguage).Install()
 	if err != nil {
-		log.Printf("SQLiteLanguage.New().Install().error: %v", err.Error())
+		util.TraceToLog()
 		return
 	}
 
