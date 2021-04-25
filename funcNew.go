@@ -6,14 +6,14 @@ import (
 )
 
 func (e *SQLiteLanguage) New() (referenceInicialized interface{}, err error) {
-	referenceInicialized = &SQLiteLanguage{}
-	err = referenceInicialized.(*SQLiteLanguage).Connect(constants.KSQLiteConnectionString)
+	//referenceInicialized = &SQLiteLanguage{}
+	err = e.Connect(constants.KSQLiteConnectionString)
 	if err != nil {
 		util.TraceToLog()
 		return
 	}
 
-	err = referenceInicialized.(*SQLiteLanguage).Install()
+	err = e.Install()
 	if err != nil {
 		util.TraceToLog()
 		return
