@@ -19,5 +19,5 @@ func (e *SQLiteLanguage) New() (referenceInicialized interface{}, err error) {
 		return
 	}
 
-	return
+	return e, nil
 }
