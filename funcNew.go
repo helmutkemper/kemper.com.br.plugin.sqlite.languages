@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/helmutkemper/kemper.com.br/constants"
+	"github.com/helmutkemper/kemper.com.br.plugin.dataaccess.constants"
 	"github.com/helmutkemper/util"
 )
 

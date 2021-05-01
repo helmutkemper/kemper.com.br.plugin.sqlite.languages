@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"errors"
 	"github.com/helmutkemper/kemper.com.br.module.dataformat"
-	"github.com/helmutkemper/kemper.com.br/constants"
+	"github.com/helmutkemper/kemper.com.br.plugin.dataaccess.constants"
 	"log"
 )
 
