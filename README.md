@@ -1,1 +1,5 @@
-# kemper.com.br.plugin.sqllite.languages
+# kemper.com.br.plugin.sqlite.languages
+
+```shell
+  make build
+```
